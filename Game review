@@ -1,5 +1,9 @@
-git clone https://github.com/Swaamii-0509/Chess/wiki/April-6th-2025--Swaaamii-(741)-vs-Amir_Kabaena-(730).
-git add docs/*
-git commit -m
-git push origin Game review
+git clone https://github.com/Swaamii-0509/Chess.wiki.git
+cp Chess.wiki/April-6th-2025--Swaaamii-\(741\)-vs-Amir_Kabaena-\(730\).md /path/to/your/Chess/docs/
+cd /path/to/your/Chess
+git checkout -b game-review         # Or whatever branch you want
+git add docs/
+git commit -m "Added game review from wiki to docs folder"
+git push origin game-review
+
 
